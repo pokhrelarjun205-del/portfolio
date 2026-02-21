@@ -384,11 +384,10 @@ nav ul.nav-links li a:hover {
 
 .projects img {
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    min-width: 250px;
     transition: all 0.3s ease-in-out;
-    height: 25rem;
-    padding: 1rem;
-    background-color: var(--primary);
+    height: 15rem;
 
 }
 
@@ -413,19 +412,22 @@ nav ul.nav-links li a:hover {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     border-radius: 1rem;
     transition: all 0.3s ease-in-out;
     position: relative;
     overflow: hidden;
     border: 1px solid var(--secondary);
-    max-width: 400px;
+    max-width: 250px;
+    
+
+    align-items: center;
 }
 
 
 
 .project-card:hover img {
-    transform: scale(0.9);
+    transform: scale(1.1);
 }
 
 .tech {
@@ -457,9 +459,20 @@ nav ul.nav-links li a:hover {
 
 .demo-btn {
     display: flex;
+    width: 100%;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    
 }
-
+.demo-btn .btn-primary{
+    padding: 0.7rem 1rem;
+    width: 90%;
+    background: var(--dark);
+}
+.demo-btn .btn-primary:hover{
+    background-color: var(--light);
+}
 /* contact */
 .contact {
     margin-top: 4rem;
