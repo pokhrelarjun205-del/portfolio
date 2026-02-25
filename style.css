@@ -220,7 +220,7 @@ nav ul.nav-links li a:hover {
 #about h2 {
     font-size: 3rem;
     margin-bottom: 10px;
-    color: var(--secondary);
+
 }
 
 #about p {
@@ -419,7 +419,7 @@ nav ul.nav-links li a:hover {
     overflow: hidden;
     border: 1px solid var(--secondary);
     max-width: 250px;
-    
+
 
     align-items: center;
 }
@@ -463,16 +463,19 @@ nav ul.nav-links li a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+
 }
-.demo-btn .btn-primary{
+
+.demo-btn .btn-primary {
     padding: 0.7rem 1rem;
     width: 90%;
     background: var(--dark);
 }
-.demo-btn .btn-primary:hover{
+
+.demo-btn .btn-primary:hover {
     background-color: var(--light);
 }
+
 /* contact */
 .contact {
     margin-top: 4rem;
